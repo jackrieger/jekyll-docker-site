@@ -4,15 +4,18 @@ Base template for a Jekyll site using Docker
 
 ## Installation
 
-- Install these things:
-  - Visual Studio Code
-  - Docker
+- Install these:
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
   - Visual Studio Code extensions
-    - Docker
-    - Dev Containers
+    - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+    - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
-- clone this template
-- git clone this repo to your computer
+- clone this template repo
+- git clone the new repo to your computer
+- open repo in Visual Studio Code
+- start the Docker Desktop app
+- open the command palette (Cmd+Shift+P on Mac) and select "Open folder in container"
 
 ## Credit
 
