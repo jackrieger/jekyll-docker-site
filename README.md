@@ -4,7 +4,7 @@ Base template for a Jekyll site using Docker
 
 ## Installation
 
-Install these:
+Install:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
@@ -23,6 +23,7 @@ Install these:
 - select "From Dockerfile", and then select "Ok" on the next prompt
 - after the container builds, open an integrated terminal within the VS Code window
 - run `sh setup.sh`
+- delete `setup.sh` file
 
 ## After installation
 
