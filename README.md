@@ -17,6 +17,22 @@ Base template for a Jekyll site using Docker
 - start the Docker Desktop app
 - open the command palette (Cmd+Shift+P on Mac) and select "Open folder in container"
 
+## After installation
+
+1. Modify the baseurl and url in your _config.yml file
+   the baseurl is `/your-root-folder`
+   the url is `https://YourGitHubUserName.github.io`
+3. Run Jekyll for the first time on your computer:
+    bundle exec jekyll serve --livereload
+    Look for the site at port 4000 (ex http://127.0.0.1:4000/)
+    After testing, type CONTROL+C to stop Jekyll
+4. Commit all your changes to Git locally
+5. Publish your site to a new GitHub repo
+6. In GitHub, enable GitHub Pages in the repo settings and test
+    https://YourGitHubUserName.github.io/your-root-folder
+7. Continue developing locally and pushing changes to GitHub
+    All your changes will publish to the website automatically after a few minutes
+
 ## Credit
 
 Based on this excellent tutorial from Bill Raymond:
