@@ -16,14 +16,17 @@ Install:
 
 - clone this template repo
 - git clone the new repo to your computer
+- show hidden files on your system and manually move the .git folder out from the repo (temporarily) for install
+> NOTE: Changing permissions on git files leads to a misleading error that makes it seem like the build did not complete when it actually is fine.
 - open repo in Visual Studio Code
 - start the Docker Desktop app
 - open the command palette (Cmd+Shift+P on Mac) and select "Open folder in container"
 - make sure the resulting window is the root folder of the repo, then accept
 - select "From Dockerfile", and then select "Ok" on the next prompt
 - after the container builds, open an integrated terminal within the VS Code window
-- run `sh setup.sh`
-- delete `setup.sh` file
+- run sh setup.sh
+- delete setup.sh file
+- move the .git folder back into the repo
 
 ## After installation
 
