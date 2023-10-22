@@ -13,4 +13,4 @@ find . -type d -name .git -prune -o -exec chown root:root {} \;
 bundle install
 
 # Create Jekyll site
-bundle exec jekyll new . --force --skip-bundle --skip-git
+bundle exec jekyll new site --force --skip-bundle --skip-git
