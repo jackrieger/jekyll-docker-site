@@ -6,8 +6,8 @@
 
 # Allow all permissions for this folder, but skip the git files
 # because changing permissions there causes errors
-find . -type d -name .git -prune -o -type f -exec chmod 777 {} \;
-find . -type d -name .git -prune -o -exec chown root:root {} \;
+chmod -R 777 .
+chown -R root:root .
 
 # Install dependencies
 bundle install
