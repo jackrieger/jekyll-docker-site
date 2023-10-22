@@ -62,6 +62,11 @@ RUN rbenv install ${RUBY_VERSION} \
   && rbenv global ${RUBY_VERSION}
 
 # "#################################################"
+# "Silence the error from running bundle as root"
+# "Does not matter because this is a container with no other users"
+RUN bundle config --global silence_root_warning 1
+
+# "#################################################"
 # "Install the version of Jekyll that GitHub Pages supports"
 # "Based on: https://pages.github.com/versions/"
 # "Note: If you always want the latest 3.9.x version,"
