@@ -36,7 +36,7 @@ Install:
    the url is `https://YourGitHubUserName.github.io`
 1. Run Jekyll for the first time on your computer: `bundle exec jekyll serve --livereload`
 1. Commit all your changes to Git locally
-1. Publish your site to a new GitHub repo
+1. Push your changes
 1. In GitHub, enable GitHub Pages in the repo settings and test https://YourGitHubUserName.github.io/your-root-folder
 1. Continue developing locally and pushing changes to GitHub
 
