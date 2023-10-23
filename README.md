@@ -50,6 +50,7 @@ We likely do not want to use the default theme that Jekyll comes with (a gem-bas
 > NOTE: this will copy and paste the files from the minima theme into your repo so you can see/edit them. Be careful about the syntax here. Notice the `/.` at the end of the filepath you copied.
 - now you will see more folders and files that the theme was previously hiding from you
 - edit these files accordingly, and remove the theme from `config.yml` and run `bundle remove minima` in the terminal
+- remove all references to minima throughout the code
 
 ## Credit
 
